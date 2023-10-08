@@ -1,0 +1,165 @@
+body,h1,h2,p {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image:url('https://i.pinimg.com/736x/b9/d3/bb/b9d3bbc38b6a84954471a93c3d9616dd.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+header {
+    background-color:black;
+    color: #fff;
+    padding: 10px 10px;
+    position: fixed;
+    width: 100%;
+}
+#companyname{
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+#companyname h1{
+    color: #fff;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+    float: right;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+.para{
+    background-color:peachpuff;
+    border-radius: 25px;
+    width:50%;
+}
+.intro {
+    background-image: url('https://as1.ftcdn.net/v2/jpg/03/59/01/88/1000_F_359018851_OIipJxKR87DUGKCypzeyN9XPjvKkjXxx.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    color:rgb(0, 0, 0);
+    padding: 100px 0;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.buttons {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.buttons:hover {
+    background-color: #2980b9;
+}
+
+.feature {
+    margin: 20px;
+}
+
+.feature h2 {
+    color: black;
+    font-size: 24px;
+}
+.pricing_plan h2{
+    color: black;
+}
+.pricing_plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.plans {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.plans h3 {
+    font-size: 24px;
+}
+
+.contact_form {
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvSl_ISKZFayJUmStcOpHD9ooYNyXUKoUHPg&usqp=CAU');
+    background-size: cover;
+    border: 5px solid black;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+form {
+    text-align: left;
+    color: black;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+footer p{
+    color:white
+}
